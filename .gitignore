@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distributions & Checkpoints
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.ipynb_checkpoints/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.metadata.json
+
+# Private Presenter Assets (User only)
+*VIDEO_PRESENTATION_SCRIPT*.md
+docs/*VIDEO_PRESENTATION_SCRIPT*.md
+*Video_Presentation*
