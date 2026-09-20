@@ -193,21 +193,6 @@ python distributed_system/data_parallelism_benchmark.py
 
 ---
 
-## Evaluation Criteria Alignment Matrix
-
-| Evaluation Criteria | Weight | Implementation Details | Deliverable Evidence |
-| :--- | :---: | :--- | :--- |
-| **1. Distributed Computing Concepts** | 10% | Hadoop HDFS ingestion, Hive DDL, Spark RDDs, Map-Side Broadcast joins, lineage graphs | `hadoop_hive_setup.hql`, Section 1 of `docs/01_FINAL_PROJECT_REPORT.md` |
-| **2. Data Analysis & Management** | 15% | External/Managed ORC tables, partitioning by month, bucketing by age, 6 analytical queries | Section 2 of `Distributed_Banking_BigData_Spark_Hive.ipynb` |
-| **3. EDA & Preprocessing** | 15% | 15 UBM visualization charts, 3 hypothesis tests, outlier capping, RobustScaler, SMOTE | `Financial_Forecasting_EDA_Submission.ipynb` |
-| **4. Model Development & Validation** | 15% | Logistic Regression, Random Forest, XGBoost, GridSearchCV (5-Fold), ROC/PR curves | `Financial_Forecasting_ML_Submission.ipynb` |
-| **5. Real-Time Data Processing** | 10% | Spark Structured Streaming, tumbling/sliding window ops, threshold fraud alerts | `spark_streaming_realtime.py`, Tab 3 of `app.py` |
-| **6. Parallel Processing Efficiency** | 10% | Partition scaling benchmarks (1–8 partitions), throughput scaling, Broadcast Join speedup | `data_parallelism_benchmark.py`, Tab 4 of `app.py` |
-| **7. Innovation & Creativity** | 5% | SHAP explainability waterfall/beeswarm, composite debt index, Streamlit web portal | `best_banking_model.joblib`, `app.py` |
-| **8. Documentation & Presentation** | 20% | Professional notebooks, comprehensive technical report, interactive dashboard, clean README | `docs/01_FINAL_PROJECT_REPORT.md`, `docs/02_INTERVIEW_QA_PREPARATION.md`, `README.md` |
-
----
-
 ## License & Author
 
 **Author**: Karthikeyan (Data Science & Distributed ML Specialist)  
